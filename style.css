@@ -13,14 +13,14 @@ body{
     margin: 0 auto;
 }
 
-.flex-container{
+/*.flex-container{
     display: flex;
     background: #fff;
 }
-
+/*
 .box{
     height: 100px;
-    width:320px;
+    width: 320px;
     
 }
 /*
@@ -37,7 +37,7 @@ body{
     flex-grow: 3;
 }
 */
-
+/*
 .one{
     background: red;
     flex-shrink: 1;
@@ -50,4 +50,28 @@ body{
     background: green;
     flex-shrink: 6;
     
+}
+*/
+
+.flex-container{
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    min-width: 200px;
+    flex-grow: 1;
+    
+}
+.one{
+    background: red;
+    
+}
+.two{
+    background: blue;
+   
+}
+.three{
+    background: green;
 }
