@@ -52,7 +52,7 @@ body{
     
 }
 */
-
+/*
 .flex-container{
     display: flex;
     background: #fff;
@@ -75,3 +75,28 @@ body{
 .three{
     background: green;
 }
+*/
+
+.flex-container{
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+   
+}
+
+.one{
+        background: red;
+        flex: 1 3 100px;
+    }
+.two{
+        background: blue;
+        flex: 2 2 200px;
+    }
+ .three{
+        background: green;
+        flex: 3 1 300px;
+    }
